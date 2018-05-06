@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BOUNCY</title>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="img/favicon.png">
+	<script src="https://maps.googleapis.com/maps/api/js" async></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script src="main.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+</head>
+<body>
+	<main>
+		<div class="hero">
+			<div class="container">
+				<header>
+					<a class="logo" href="#">
+						<svg xmlns="http://www.w3.org/2000/svg"	xmlns:xlink="http://www.w3.org/1999/xlink" width="113px" height="19px">
+							<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+							d="M105.872,12.101 L105.872,19.000 L100.998,19.000 L100.998,12.101 L94.150,0.254 L99.823,0.254 L103.422,6.503 L107.047,0.254 L112.720,0.254 L105.872,12.101 ZM85.647,14.026 C86.922,14.026 88.021,13.576 88.796,12.776 L92.295,16.225 C90.596,17.925 88.246,19.000 85.647,19.000 C80.473,19.000 76.274,14.801 76.274,9.627 C76.274,4.453 80.473,0.254 85.647,0.254 C88.221,0.254 90.546,1.279 92.245,2.979 L88.796,6.453 C88.021,5.678 86.922,5.228 85.647,5.228 C83.098,5.228 81.248,7.077 81.248,9.627 C81.248,12.177 83.098,14.026 85.647,14.026 ZM63.323,10.127 L63.323,19.000 L58.399,19.000 L58.399,0.254 L60.399,0.254 L69.271,9.102 L69.271,0.254 L74.195,0.254 L74.195,19.000 L72.171,19.000 L63.323,10.127 ZM47.247,19.000 C43.123,19.000 39.849,15.725 39.849,11.601 L39.849,0.254 L44.798,0.254 L44.798,11.527 C44.798,12.876 45.898,13.976 47.247,13.976 C48.597,13.976 49.697,12.876 49.697,11.527 L49.697,0.254 L54.646,0.254 L54.646,11.601 C54.646,15.725 51.321,19.000 47.247,19.000 ZM27.572,19.000 C22.398,19.000 18.224,14.826 18.224,9.652 C18.224,4.478 22.398,0.254 27.572,0.254 C32.746,0.254 36.945,4.478 36.945,9.652 C36.945,14.826 32.746,19.000 27.572,19.000 ZM27.572,5.153 C25.123,5.153 23.123,7.153 23.123,9.627 C23.123,12.076 25.123,14.101 27.572,14.101 C30.047,14.101 32.046,12.076 32.046,9.627 C32.046,7.153 30.047,5.153 27.572,5.153 ZM10.147,19.000 L0.900,19.000 L0.900,0.254 L9.173,0.254 C12.172,0.254 14.721,2.829 14.721,5.828 C14.721,7.102 14.246,8.277 13.521,9.202 C14.796,10.227 15.646,11.801 15.646,13.501 C15.646,16.475 13.122,19.000 10.147,19.000 ZM8.198,4.328 L5.823,4.328 L5.823,7.577 L8.198,7.577 C9.098,7.577 9.822,6.853 9.822,5.953 C9.822,5.053 9.098,4.328 8.198,4.328 ZM9.123,11.701 L5.823,11.701 L5.823,14.951 L9.123,14.951 C10.022,14.951 10.747,14.226 10.747,13.326 C10.747,12.426 9.972,11.701 9.123,11.701 Z"/>
+						</svg>
+					</a>
+					<ul class="nav">
+						<li class="nav-li"><a href="#">hello</a></li>
+						<li class="nav-li"><a href="#portfolio">portfolio</a></li>
+						<li class="nav-li"><a href="#team">team</a></li>
+						<li class="nav-li"><a href="#contact">contact</a></li>
+					</ul>
+				</header>
+				<div class="hero-info">
+					<h1>We Are Code Cafe</h1>
+					<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+				</div>
+				<a href="#portfolio" class="scroll"><img src="img/scroll.png"></a>
+			</div>
+		</div>
+		<!-- PORTFOLIO -->
+		<div id="portfolio">
+			<div class="container">
+				<h2>THE PORTFOLIO</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+				<div class="container-isitope">
+					<div class="button-group filters-button-group">
+						<button class="button is-checked" data-filter="*">
+							All Works
+							<div class="green-line active-line"></div>
+						</button>
+						<button class="button" data-filter=".print">
+							Print
+							<div class="green-line"></div>
+						</button>
+						<button class="button" data-filter=".branding">
+							Branding
+							<div class="green-line"></div>
+						</button>
+						<button class="button" data-filter=".web-works">
+							Web
+							<div class="green-line"></div>
+						</button>
+						<button class="button" data-filter=".html-works">
+							HTML
+							<div class="green-line"></div>
+						</button>
+					</div>
+					<div class="grid">
+						<div class="element-item print" data-category="print">
+							<img src="img/img1.jpg">
+						</div>
+						<div class="element-item element-item--height230 branding" data-category="branding">
+							<img src="img/img2.jpg">
+						</div>
+						<div class="element-item element-item--height300 web-works" data-category="web-works">
+							<img src="img/img3.jpg">
+						</div>
+						<div class="element-item html-works" data-category="html-works">
+							<img src="img/img4.jpg">
+						</div>
+						<div class="element-item element-item--height345 print" data-category="print">
+							<img src="img/img5.jpg">
+						</div>
+						<div class="element-item element-item--height270 branding" data-category="branding">
+							<img src="img/img6.jpg">
+						</div>
+						<div class="element-item element-item--height375 web-works" data-category="web-works">
+							<img src="img/img7.jpg">
+						</div>
+						<div class="element-item element-item--height270 html-works" data-category="html-works">
+							<img src="img/img8.jpg">
+						</div>
+						<div class="element-item element-item--height210 print" data-category="print">
+							<img src="img/img9.jpg">
+						</div>
+						<div class="element-item branding" data-category="branding">
+							<img src="img/img10.jpg">
+						</div>
+						<div class="element-item element-item--height255 web-works" data-category="web-works">
+							<img src="img/img11.jpg">
+						</div>
+						<div class="element-item element-item--height300 html-works" data-category="html-works">
+							<img src="img/img12.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- THE TEAM -->
+		<div id="team">
+			<div class="container container-width1000">
+				<h2>THE TEAM</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+				<div class="slick-slider">
+					<div class="slide">
+						<div class="our_team">
+							<img src="img/man1.jpg">
+							<div class="our_team-info">
+								<h3>Abdullah Noman</h3>
+								<p class="our_team-position">Creative Director, Code Cafe</p>
+								<p class="our_team-about">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="our_team">
+							<img src="img/man1.jpg">
+							<div class="our_team-info">
+								<h3>Noman</h3>
+								<p class="our_team-position">Creative Director, Code Cafe</p>
+								<p class="our_team-about">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+						<div class="our_team">
+							<img src="img/man1.jpg">
+							<div class="our_team-info">
+								<h3>Abdullah Noman</h3>
+								<p class="our_team-position">Creative Director</p>
+								<p class="our_team-about">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- If love us - Contact Us -->
+		<div id="contact-love">
+			<div class="container">
+				<h2 class="contact_us">Already Loved Us? Let’s talk!</h2>
+				<a href="#contact" class="contact_us-link">Contuct Us</a>
+			</div>
+		</div>
+		<!-- Testimonials -->
+		<div id="testimonials">
+			<div class="container">
+				<h2>Testimonials</h2>
+				<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+				<div class="slick-slider-test">
+					<div class="slide-test">
+						<img src="img/man2.png">
+						<div class="testemonial-info">
+							<p class="testemonial-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+							<h4 class="testemonial-man">PARTHO</h4>
+							<p class="testemonial-position">FOUNDER, ARTWAYS BD</p>
+						</div>
+					</div>
+					<div class="slide-test">
+						<img src="img/man2.png">
+						<div class="testemonial-info">
+							<p class="testemonial-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+							<h4 class="testemonial-man">PARTHO</h4>
+							<p class="testemonial-position">FOUNDER, ARTWAYS BD</p>
+						</div>
+					</div>
+					<div class="slide-test">
+						<img src="img/man2.png">
+						<div class="testemonial-info">
+							<p class="testemonial-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.Вeleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia.</p>
+							<h4 class="testemonial-man">PARTHO</h4>
+							<p class="testemonial-position">FOUNDER, ARTWAYS BD</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Contact Us -->
+		<div id="contact">
+			<h2>Contact us</h2>
+			<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+			<div id="map" class="map"></div>
+		</div>
+	</main>
+	<footer>
+		<a href="#">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113px" height="19px">
+				<defs>
+					<filter id="Filter_0">
+					    <feFlood flood-color="rgb(50, 58, 69)" flood-opacity="1" result="floodOut" />
+					    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+					    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+					</filter>
+				</defs>
+				<g filter="url(#Filter_0)">
+				<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+				 d="M105.872,12.101 L105.872,19.000 L100.998,19.000 L100.998,12.101 L94.150,0.254 L99.823,0.254 L103.422,6.503 L107.046,0.254 L112.720,0.254 L105.872,12.101 ZM85.647,14.026 C86.922,14.026 88.021,13.576 88.796,12.776 L92.295,16.225 C90.596,17.925 88.246,19.000 85.647,19.000 C80.473,19.000 76.274,14.801 76.274,9.627 C76.274,4.453 80.473,0.254 85.647,0.254 C88.221,0.254 90.546,1.279 92.245,2.978 L88.796,6.453 C88.021,5.678 86.922,5.228 85.647,5.228 C83.098,5.228 81.248,7.078 81.248,9.627 C81.248,12.177 83.098,14.026 85.647,14.026 ZM63.323,10.127 L63.323,19.000 L58.399,19.000 L58.399,0.254 L60.399,0.254 L69.272,9.102 L69.272,0.254 L74.195,0.254 L74.195,19.000 L72.171,19.000 L63.323,10.127 ZM47.247,19.000 C43.123,19.000 39.849,15.726 39.849,11.602 L39.849,0.254 L44.798,0.254 L44.798,11.526 C44.798,12.876 45.898,13.976 47.247,13.976 C48.597,13.976 49.697,12.876 49.697,11.526 L49.697,0.254 L54.646,0.254 L54.646,11.602 C54.646,15.726 51.321,19.000 47.247,19.000 ZM27.572,19.000 C22.398,19.000 18.224,14.826 18.224,9.652 C18.224,4.478 22.398,0.254 27.572,0.254 C32.746,0.254 36.945,4.478 36.945,9.652 C36.945,14.826 32.746,19.000 27.572,19.000 ZM27.572,5.153 C25.123,5.153 23.123,7.153 23.123,9.627 C23.123,12.076 25.123,14.101 27.572,14.101 C30.046,14.101 32.046,12.076 32.046,9.627 C32.046,7.153 30.046,5.153 27.572,5.153 ZM10.147,19.000 L0.899,19.000 L0.899,0.254 L9.172,0.254 C12.172,0.254 14.721,2.829 14.721,5.828 C14.721,7.103 14.246,8.278 13.521,9.202 C14.796,10.227 15.646,11.801 15.646,13.501 C15.646,16.475 13.121,19.000 10.147,19.000 ZM8.198,4.328 L5.823,4.328 L5.823,7.577 L8.198,7.577 C9.097,7.577 9.822,6.853 9.822,5.953 C9.822,5.053 9.097,4.328 8.198,4.328 ZM9.122,11.701 L5.823,11.701 L5.823,14.951 L9.122,14.951 C10.022,14.951 10.747,14.226 10.747,13.326 C10.747,12.427 9.972,11.701 9.122,11.701 Z"/>
+				</g>
+			</svg>
+		</a>
+		<p class="copyright">Copyright 2015. All rights Reserved</p>
+		<ul class="social">
+			<li><a href="#"><img src="img/facebook.png"></a></li>
+			<li><a href="#"><img src="img/twitter.png"></a></li>
+			<li><a href="#"><img src="img/linkedin.png"></a></li>
+			<li><a href="#"><img src="img/instagramm.png"></a></li>
+			<li><a href="#"><img src="img/vimeo.png"></a></li>
+		</ul>
+	</footer>
+</body>
+</html>
